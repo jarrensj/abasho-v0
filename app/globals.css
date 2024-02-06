@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header #top {
+  background-color: #e95354;
+}
+header #bottom {
+  background-color: #1a5f91;
+}
