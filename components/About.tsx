@@ -10,10 +10,10 @@ export default function About() {
         upcoming artists in sharing their talents with the world.
       </p>
       <p>
-        Built on a foundation of love and positivity, the word "Abasho" comes
-        from the word Abrazo (hug in Spanish). Sometimes children struggle with
-        the letters R and Z while learning Spanish so they say “abasho” when
-        they want a hug.
+        Built on a foundation of love and positivity, the word
+        &quot;Abasho&ldquot; comes from the word Abrazo (hug in Spanish).
+        Sometimes children struggle with the letters R and Z while learning
+        Spanish so they say “abasho” when they want a hug.
       </p>
       <p>
         The project was originally created by artist & developer @cvasqxz as a
