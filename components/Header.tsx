@@ -19,6 +19,15 @@ export default function Header() {
             About
           </Link>
         </div>
+        <div id='opensea' className='hidden sm:block'>
+          <Link
+            href='https://opensea.io/collection/abasho'
+            target='_blank'
+            className='py-2 px-4 bg-neutral-300 bg-opacity-50 hover:bg-opacity-78 font-semibold text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
+          >
+            View on OpenSea
+          </Link>
+        </div>
         <div id='socials' className='flex gap-4'>
           <Link
             href='https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxNjQyNTAzNjY2'
@@ -44,11 +53,11 @@ export default function Header() {
         </div>
       </div>
 
-      <div id='bottom' className='flex justify-center items-center'>
+      <div id='bottom' className='w-full flex sm:hidden p-4 pt-0'>
         <Link
           href='https://opensea.io/collection/abasho'
           target='_blank'
-          className='text-neutral-50 hover:text-neutral-300 w-full inline-block text-center p-4 px-8'
+          className='w-full py-4 bg-neutral-300 bg-opacity-50 hover:bg-opacity-85 font-semibold text-center text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
         >
           View on OpenSea
         </Link>
