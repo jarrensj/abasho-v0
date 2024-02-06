@@ -5,7 +5,10 @@ import { FaTelegramPlane, FaDiscord, FaTwitter } from 'react-icons/fa';
 export default function Header() {
   return (
     <header className='w-full'>
-      <div id='top' className='flex justify-between items-center p-8'>
+      <div
+        id='top'
+        className='flex justify-between items-center p-4 py-6 sm:p-8'
+      >
         <div id='links' className='flex gap-2 text-neutral-50'>
           <h1 className='font-bold'>Abasho</h1>
           <span className='mx-2'>|</span>
