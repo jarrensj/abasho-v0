@@ -3,14 +3,11 @@ import { Source_Code_Pro } from 'next/font/google';
 import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-
 const scp = Source_Code_Pro({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'abasho',
-  description: 'abasho',
+  title: 'Abasho',
+  description: 'Abasho means hug',
 };
 
 export default function RootLayout({
@@ -21,11 +18,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${scp.className}`}>
-        <div id='container' className='min-h-screen'>
-          <Header />
-          {children}
-          <Footer />
-        </div>
+        {children}
         <Analytics />
       </body>
     </html>
