@@ -17,10 +17,12 @@ export default function Intro() {
           alt='Abasho means hug'
           width={400}
           height={400}
-          className='mb-6 rounded max-w-[75%] m-auto'
+          className='mb-6 rounded max-w-[75%] sm:max-w-[100%] m-auto'
           priority={true}
         />
-        <h2 className='text-4xl text-center font-semibold'>abasho</h2>
+        <h2 className='text-4xl sm:text-6xl text-center font-custom font-bold tracking-tighter'>
+          abasho
+        </h2>
       </div>
     </div>
   );
