@@ -5,10 +5,10 @@ export default function Collective() {
   return (
     <div
       id='collective'
-      className='min-h-screengrid px-6 py-16 sm:px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-24'
+      className='min-h-screen px-6 py-16 sm:px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-24'
     >
       <div id='collective--textContainer'>
-        <h2 className='text-3xl font-bold mb-8'>
+        <h2 className='text-4xl font-semibold mb-8'>
           <span className='block'>TALENT IS EVENLY DISTRIBUTED,</span>
           <span className='block'>BUT OPPORTUNITY IS NOT.</span>
         </h2>

@@ -17,15 +17,9 @@ export default function Intro() {
           alt='Abasho means hug'
           width={400}
           height={400}
-          className='mb-8 rounded'
+          className='mb-6 rounded'
         />
-        <Link
-          href='https://opensea.io/collection/abasho'
-          target='_blank'
-          className='inline-block py-3 px-8 bg-neutral-300 bg-opacity-50 hover:bg-opacity-78 font-semibold text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
-        >
-          View on OpenSea
-        </Link>
+        <h2 className='text-4xl font-semibold'>abasho</h2>
       </div>
     </div>
   );

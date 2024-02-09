@@ -5,19 +5,28 @@ import { FaTelegramPlane, FaDiscord, FaTwitter } from 'react-icons/fa';
 export default function Nav() {
   return (
     <nav className='fixed bottom-0 left-0 right-0 p-6 sm:p-8'>
-      {/* <div id='top' className='w-full flex sm:hidden p-4 pt-0'>
+      {/* show only scroll past splash */}
+      <div id='mobileButton' className='w-full flex sm:hidden mb-4'>
         <Link
           href='https://opensea.io/collection/abasho'
           target='_blank'
-          className='w-full py-4 bg-neutral-300 bg-opacity-50 hover:bg-opacity-85 font-semibold text-center text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
+          className='w-full py-2 bg-neutral-300 bg-opacity-50 hover:bg-opacity-85 font-semibold text-center text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
         >
           View on OpenSea
         </Link>
-      </div> */}
+      </div>
 
       <div id='bottom' className='flex justify-between items-center'>
         <Link href='/'>
-          <h1 className='font-bold text-neutral-50'>Abasho</h1>
+          <h1 className='text-lg text-neutral-50'>abasho</h1>
+        </Link>
+
+        <Link
+          href='https://opensea.io/collection/abasho'
+          target='_blank'
+          className='hidden sm:block py-2 px-6 bg-neutral-300 bg-opacity-50 hover:bg-opacity-78 font-semibold text-sm text-neutral-50 rounded focus:outline-none focus:shadow-outline'
+        >
+          View on OpenSea
         </Link>
 
         <div id='socials' className='flex gap-4'>

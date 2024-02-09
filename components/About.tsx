@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div
       id='about'
-      className='min-h-screen px-6 py-16 sm:px-8 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-24'
+      className='min-h-screen px-6 py-16 sm:px-8 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 xl:gap-24'
     >
       <div id='about--textContainer'>
-        <h2 className='text-3xl font-bold mb-6'>Abasho Means Hug</h2>
+        <h2 className='text-4xl font-semibold mb-6'>Abasho Means Hug</h2>
         <p className='text-lg mb-4 leading-relaxed'>
           Abasho is a collective of web3 enthusiasts whose main goal is to
           assist upcoming artists in sharing their talents with the world.
