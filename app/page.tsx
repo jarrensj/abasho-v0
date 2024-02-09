@@ -1,15 +1,15 @@
+import Nav from '@/components/Nav';
+import Intro from '@/components/Intro';
 import About from '@/components/About';
 import Collective from '@/components/Collective';
-import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main>
-      <div id='container' className='p-8'>
-        <h2 className='text-6xl'>ABASHO MEANS HUG</h2>
-        <Collective />
-        <About />
-      </div>
+    <main className='text-neutral-900 mb-24'>
+      <Intro />
+      <About />
+      <Collective />
+      <Nav />
     </main>
   );
 }
