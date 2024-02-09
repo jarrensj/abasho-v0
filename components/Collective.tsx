@@ -8,9 +8,9 @@ export default function Collective() {
       className='min-h-screen px-6 py-16 sm:px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16 xl:gap-24'
     >
       <div id='collective--textContainer'>
-        <h2 className='text-4xl font-semibold mb-8'>
+        <h2 className='text-4xl sm:text-6xl font-custom font-bold tracking-tighter mb-8'>
           <span className='block'>TALENT IS EVENLY DISTRIBUTED,</span>
-          <span className='block'>BUT OPPORTUNITY IS NOT.</span>
+          <span className='block'>OPPORTUNITY IS NOT</span>
         </h2>
         <div style={{ maxWidth: 1000 }}>
           <p className='leading-relaxed'>
