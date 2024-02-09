@@ -18,6 +18,7 @@ export default function Intro() {
           width={400}
           height={400}
           className='mb-6 rounded'
+          priority={true}
         />
         <h2 className='text-4xl font-semibold'>abasho</h2>
       </div>
