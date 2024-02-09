@@ -11,16 +11,16 @@ export default function Intro() {
       id='intro'
       className='min-h-screen px-6 py-16 sm:px-8 grid justify-center items-center'
     >
-      <div className='text-center'>
+      <div>
         <Image
           src='/abasho-1.png'
           alt='Abasho means hug'
           width={400}
           height={400}
-          className='mb-6 rounded'
+          className='mb-6 rounded max-w-[75%] m-auto'
           priority={true}
         />
-        <h2 className='text-4xl font-semibold'>abasho</h2>
+        <h2 className='text-4xl text-center font-semibold'>abasho</h2>
       </div>
     </div>
   );
