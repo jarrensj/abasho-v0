@@ -4,7 +4,10 @@ import { FaTelegramPlane, FaDiscord, FaTwitter } from 'react-icons/fa';
 
 export default function Nav() {
   return (
-    <nav className='fixed bottom-0 left-0 right-0 p-6 sm:p-8 text-neutral-50'>
+    <nav
+      id='nav'
+      className='fade-in fixed bottom-0 left-0 right-0 p-6 sm:p-8 text-neutral-50'
+    >
       {/* show only scroll past splash */}
       <div id='mobileButton'>
         <Link
